@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+.gridcontainer{
+    
+    display: grid;
+    grid-template-columns: auto 70% auto;
+}
+
+.middle{
+    background-color: darkcyan;
+    grid-column: 2;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
